@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LinkTree Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9fb;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 440px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      padding: 30px 24px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #4a90e2, #9013fe);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      user-select: none;
+    }
+
+    h1 {
+      font-size: 1.6em;
+      margin-bottom: 6px;
+    }
+
+    p.bio {
+      font-size: 0.95em;
+      color: #777;
+      margin-bottom: 30px;
+    }
+
+    a.btn {
+      display: block;
+      background-color: #4a90e2;
+      color: white;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 10px;
+      font-size: 1em;
+      font-weight: 500;
+      margin-bottom: 15px;
+      transition: background-color 0.3s;
+    }
+
+    a.btn:hover {
+      background-color: #3b7bd8;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 1.4em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Avatar dengan inisial -->
+    <div class="avatar">NP</div>
+
+    <h1>Nama Pengguna</h1>
+    <p class="bio">Web Developer | Open-Source Enthusiast | Coding Everyday</p>
+
+    <!-- Link Tombol -->
+    <a href="https://github.com/USERNAME" class="btn" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/USERNAME" class="btn" target="_blank">LinkedIn</a>
+    <a href="https://twitter.com/USERNAME" class="btn" target="_blank">Twitter</a>
+    <a href="https://instagram.com/USERNAME" class="btn" target="_blank">Instagram</a>
+    <a href="mailto:email@example.com" class="btn">Email Saya</a>
+
+    <footer>
+      <p>&copy; 2025 <a href="https://github.com/USERNAME" target="_blank">GitHub Saya</a></p>
+    </footer>
+  </div>
+</body>
+</html>
